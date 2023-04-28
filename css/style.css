@@ -77,6 +77,7 @@ footer{
     height: 25vh;
 }
 
+
 .redes_sociais{
     width: 100%;
     padding: 70px 30px 20px;
@@ -110,7 +111,7 @@ footer{
     background-color:darkgrey;
     transition: all 0.5s;
 }
-
+    /*altera o título redes sociais*/
 .redes_sociais .titulo_redes{
     text-align: center;
     position: relative;
