@@ -18,6 +18,19 @@ header{
     top: 0;
 }
 
+
+h2{
+    font-family:'Konkhmer Sleokchher',cursive; 
+}
+
+.titulo_pagina{
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+
+
 .nav_header{
     display: flex;
     align-items: center;
@@ -70,6 +83,7 @@ header{
 
 .imagem1{
     text-align: center;
+
 }
 
 
@@ -147,6 +161,5 @@ footer{
     text-align: center; 
     font-family: 'Konkhmer Sleokchher', cursive;
     font-size: 13px;
-   
 
 }
