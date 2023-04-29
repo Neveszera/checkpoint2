@@ -37,7 +37,7 @@ header{
     padding: 15px;
 
 
-    
+
 }
 
 .nav_header ul li a{
@@ -98,20 +98,26 @@ footer{
     text-decoration: none;
     background-color: antiquewhite;
     border-radius: 10px;
-    padding: 10px;
+    padding: 6px;
     position: relative;
     margin-top: 5px;
 }
 
 .nav_redes a i{
     font-size: 2em;
-    color: rgb(39, 26, 26);
+    color: #272727;
     opacity: 0.9;
 }
 
 
+
 .nav_redes a:hover{
-    background-color:darkgrey;
+    background-color:black;
+    transition: all 0.1s;
+
+}
+
+.nav_redes a i:hover{
     transition: all 0.5s;
 }
     /*altera o título redes sociais*/
@@ -122,6 +128,7 @@ footer{
     top: -5px;
     color: white;
     font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
 }
 
 .footer_creater{
@@ -130,8 +137,9 @@ footer{
     width: 100vw;
     padding: 10px;
     position: relative;
-    bottom: -19px;
+    bottom: -23px;
     right: 30px;
     text-align: center; 
     font-family: 'Konkhmer Sleokchher', cursive;
+    font-size: 13px;
 }
