@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&family=Montserrat:wght@300;400;500;600;700&family=Raleway:wght@500;700&family=Righteous&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+
+h2 {
+    font-family: 'Konkhmer Sleokchher', cursive;
+}
+
+.nav_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #272727;
+
+}
+
+.nav_header li {
+    display: inline-block;
+    padding: 10px;
+    padding-left: 25px;
+}
+
+.nav_header ul {
+    list-style: none;
+    padding: 15px;
+}
+
+.nav_header ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    transition: all 0.6s;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-size: 400;
+}
+
+.nav_header ul li a:hover {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.nav_header .logo2 {
+    padding-top: 10px;
+    padding-left: 25px;
+    height: 10vh;
+    padding-bottom: 2px;
+}
+
+/*main ===============================================*/
+
+section {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+article {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+  }
+
+article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+article h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+article p {
+    font-size: 1rem;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+article figure {
+    margin: 0;
+    position: relative;
+}
+
+article figure::before {
+    content: "";
+    display: block;
+    padding-top: 60%;
+}
+
+article img {
+    padding: 20px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  article figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    font-size: 0.8rem;
+    font-family: 'Konkhmer Sleokchher';
+  }  
+
+article:hover figcaption {
+    opacity: 1;
+}
+
+
+/*footer ===============================================*/
+
+footer {
+    background-color: #272727;
+    bottom: 0;
+    position: relative;
+    bottom: 0;
+    height: 25vh;
+    overflow: hidden
+}
+
+.redes_sociais {
+    width: 100%;
+    padding: 70px 30px 20px;
+    bottom: 0px;
+}
+
+.nav_redes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.nav_redes a {
+    text-decoration: none;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 6px;
+    position: relative;
+    margin-top: 5px;
+}
+
+.nav_redes a i {
+    font-size: 2em;
+    color: #272727;
+    opacity: 0.9;
+}
+
+.nav_redes a:hover {
+    background-color: black;
+    transition: all 0.1s;
+
+}
+
+.nav_redes a i:hover {
+    transition: all 0.5s;
+}
+
+/*altera o título redes sociais*/
+
+.redes_sociais .titulo_redes {
+    text-align: center;
+    position: relative;
+    margin-top: -50px;
+    top: -5px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.footer_creater {
+    color: aliceblue;
+    background-color: black;
+    padding: 10px;
+    width: 100vw;
+    position: relative;
+    bottom: -23px;
+    right: 30px;
+    text-align: center;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-size: 13px;
+}
